@@ -6,16 +6,18 @@ body
   width 150px
   height 250px
   margin 10px auto
+  overflow hidden
   background #EEE
   border-radius 10px 10px 30px 10px
-  overflow hidden
   box-shadow 5px 5px rgba(0, 0, 0, 0.1)
+
   &:before
     content ""
     position absolute
     width 250px
     height 10px
     border-bottom 3px solid #E0E0E0
+
   &:after
     content ""
     position absolute
@@ -29,8 +31,8 @@ body
   position absolute
   width 126px
   height 105px
-  left 12px
   top 20px
+  left 12px
   background #777
   border-radius 5px 5px 20px 5px
   &:before
@@ -45,12 +47,12 @@ body
   &:after
     content ""
     position absolute
-    height 5px
-    width 5px
+    width 4px
+    height 4px
     top 45px
     left 9px
-    border-radius 100%
     background #B00
+    border-radius 100%
 
 #arrows
   &:before
@@ -82,7 +84,6 @@ body
       border-left 3px solid transparent
       border-right 3px solid transparent
       border-bottom 3px solid #dedede
-
     &:before
       content ""
       position relative
@@ -90,11 +91,9 @@ body
       left 4px
       width 0
       height 0
+      border-top 3px solid #dedede
       border-left 3px solid transparent
       border-right 3px solid transparent
-      border-top 3px solid #dedede
-
-
   #vertical
     position absolute
     width 14px
@@ -115,7 +114,6 @@ body
       border-left 3px solid transparent
       border-right 3px solid transparent
       border-bottom 3px solid #dedede
-
     &:before
       content ""
       position relative
@@ -123,52 +121,20 @@ body
       left 4px
       width 0
       height 0
+      border-top 3px solid #dedede
       border-left 3px solid transparent
       border-right 3px solid transparent
-      border-top 3px solid #dedede
-
-
-
-#pad2
-  position absolute
-  width 50px
-  height 50px
-  top 145px
-  left 7px
-  border-radius 100%
-  &:before
-    content ""
-    position absolute
-    width 25px
-    height 50px
-    left 100px
-    border-radius 12px
-    background #DFDFDF
-    -webkit-transform rotate(45deg)
-  &:after
-    content ""
-    position absolute
-    height 20px
-    width 3px
-    top 80px
-    left 100px
-    border-radius 2px
-    background #DDD
-    -webkit-transform rotate(-45deg)
-    box-shadow 7px 0 #DDD, 14px 0 #DDD, 21px 0 #DDD, 28px 0 #DDD, 35px 0 #DDD
-
 
 #btnAB
   content ""
   position absolute
   width 25px
   height 50px
-  left 100px
   top 144.5px
+  left 105px
   background #DFDFDF
   border-radius 12px
   -webkit-transform rotate(60deg)
-
   &:before
     content ""
     position absolute
@@ -176,9 +142,9 @@ body
     height 17px
     top 29px
     right 4px
-    border-radius 100%
     background #A93671
     box-shadow 18px -18px #A93671
+    border-radius 100%
     -webkit-transform rotate(-45deg)
 
 #btnStartSelect
@@ -190,4 +156,29 @@ body
   background #999
   border-radius 3px
   -webkit-transform rotate(60deg)
-  box-shadow 17px -17px #999
+  box-shadow 14px -24px #999
+
+#sound
+  content ""
+  position absolute
+  height 24px
+  width 3px
+  top 223px
+  left 107px
+  background #DDD
+  border-radius 2px
+  -webkit-transform rotate(-30deg)
+  box-shadow 7px 0 #DDD, 14px 0 #DDD, 21px 0 #DDD, 28px 0 #DDD, 35px 0 #DDD
+
+#phones
+  content ""
+  position absolute
+  left 50%
+  bottom 0
+  width 2px
+  height 6px
+  background-color #dedede
+  box-shadow 4px 0 #dedede
+  transform: translateX(-5.5px);
+  border-radius 6px 6px 0 0
+
