@@ -8,22 +8,20 @@ body
   margin 10px auto
   overflow hidden
   background #EEE
-  border-radius 10px 10px 30px 10px
+  border-radius 8px 8px 30px 8px
   box-shadow 5px 5px rgba(0, 0, 0, 0.1)
-
   &:before
     content ""
     position absolute
     width 250px
     height 10px
     border-bottom 2px solid #E0E0E0
-
   &:after
     content ""
     position absolute
-    width 120px
+    width 122px
     height 10px
-    left 13px
+    left 12px
     border-left 2px solid #E0E0E0
     border-right 2px solid #E0E0E0
 
@@ -170,14 +168,64 @@ body
   -webkit-transform rotate(-30deg)
   box-shadow 7px 0 #DDD, 14px 0 #DDD, 21px 0 #DDD, 28px 0 #DDD, 35px 0 #DDD
 
-.phones
-  //position absolute
-  //left 50%
-  //bottom 0
-  //width 2px
-  //height 6px
-  //background-color #dedede
-  //box-shadow 4px 0 #dedede
-  //transform: translateX(-5.5px);
-  //border-radius 6px 6px 0 0
+span.phones
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  padding 1px 2px
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color #e8e8e8
+  font-size: 4px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  &:before
+    content ""
+    position absolute
+    width 9px
+    height 3px
+    bottom -2px
+    background-color: #e8e8e8
+    left 9px
+  &:after
+    content ""
+    position absolute
+    width 2px
+    height 3px
+    bottom -2px
+    left 11px
+    background-color: #ddd
+    box-shadow 3.2px 0 #ddd
+    border-radius 3px 3px 0 0
 
+span.on-off
+  position: absolute;
+  top: 2px;
+  left: 20%;
+  padding 1px 2px
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color #e8e8e8
+  font-size: 4px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+  &:before
+    content ""
+    position absolute
+    width 9px
+    height 3px
+    top -2px
+    background-color: #e8e8e8
+    left 2px
+  &:after
+    content ""
+    position absolute
+    width 2px
+    height 3px
+    top -2px
+    left 4px
+    background-color: #ddd
+    box-shadow 3.2px 0 #ddd
+    border-radius 0 0 3px 3px

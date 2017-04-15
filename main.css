@@ -8,7 +8,7 @@ body {
   margin: 10px auto;
   overflow: hidden;
   background: #eee;
-  border-radius: 10px 10px 30px 10px;
+  border-radius: 8px 8px 30px 8px;
   box-shadow: 5px 5px rgba(0,0,0,0.1);
 }
 #gameboy:before {
@@ -21,9 +21,9 @@ body {
 #gameboy:after {
   content: "";
   position: absolute;
-  width: 120px;
+  width: 122px;
   height: 10px;
-  left: 13px;
+  left: 12px;
   border-left: 2px solid #e0e0e0;
   border-right: 2px solid #e0e0e0;
 }
@@ -177,4 +177,70 @@ body {
   border-radius: 2px;
   -webkit-transform: rotate(-30deg);
   box-shadow: 7px 0 #ddd, 14px 0 #ddd, 21px 0 #ddd, 28px 0 #ddd, 35px 0 #ddd;
+}
+span.phones {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  padding: 1px 2px;
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color: #e8e8e8;
+  font-size: 4px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+span.phones:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 3px;
+  bottom: -2px;
+  background-color: #e8e8e8;
+  left: 9px;
+}
+span.phones:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 3px;
+  bottom: -2px;
+  left: 11px;
+  background-color: #ddd;
+  box-shadow: 3.2px 0 #ddd;
+  border-radius: 3px 3px 0 0;
+}
+span.on-off {
+  position: absolute;
+  top: 2px;
+  left: 20%;
+  padding: 1px 2px;
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color: #e8e8e8;
+  font-size: 4px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+span.on-off:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 3px;
+  top: -2px;
+  background-color: #e8e8e8;
+  left: 2px;
+}
+span.on-off:after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 3px;
+  top: -2px;
+  left: 4px;
+  background-color: #ddd;
+  box-shadow: 3.2px 0 #ddd;
+  border-radius: 0 0 3px 3px;
 }
