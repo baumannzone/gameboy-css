@@ -1,0 +1,193 @@
+body
+  background #009999
+
+#gameboy
+  position relative
+  width 150px
+  height 250px
+  margin 10px auto
+  background #EEE
+  border-radius 10px 10px 30px 10px
+  overflow hidden
+  box-shadow 5px 5px rgba(0, 0, 0, 0.1)
+  &:before
+    content ""
+    position absolute
+    width 250px
+    height 10px
+    border-bottom 3px solid #E0E0E0
+  &:after
+    content ""
+    position absolute
+    width 120px
+    height 10px
+    left 12px
+    border-left 3px solid #E0E0E0
+    border-right 3px solid #E0E0E0
+
+#screen
+  position absolute
+  width 126px
+  height 105px
+  left 12px
+  top 20px
+  background #777
+  border-radius 5px 5px 20px 5px
+  &:before
+    content ""
+    position absolute
+    width 80px
+    height 80px
+    top 13px
+    left 23px
+    background #bdae58
+    box-shadow inset 2px 2px rgba(0, 0, 0, 0.15)
+  &:after
+    content ""
+    position absolute
+    height 5px
+    width 5px
+    top 45px
+    left 9px
+    border-radius 100%
+    background #B00
+
+#arrows
+  &:before
+    content ""
+    position absolute
+    z-index 3
+    top 165px
+    left 27px
+    width 10px
+    height 10px
+    background-color #3a3a3a
+    border-radius 100%
+  #horizontal
+    position absolute
+    width 14px
+    height 40px
+    top 150px
+    left 25px
+    background #444
+    border-radius 3px
+    z-index 2
+    &:after
+      content ""
+      position relative
+      top -22px
+      left -2px
+      width 0
+      height 0
+      border-left 3px solid transparent
+      border-right 3px solid transparent
+      border-bottom 3px solid #dedede
+
+    &:before
+      content ""
+      position relative
+      top 44px
+      left 4px
+      width 0
+      height 0
+      border-left 3px solid transparent
+      border-right 3px solid transparent
+      border-top 3px solid #dedede
+
+
+  #vertical
+    position absolute
+    width 14px
+    height 40px
+    top 150px
+    left 25px
+    background #444
+    border-radius 3px
+    z-index 2
+    -webkit-transform rotate(90deg)
+    &:after
+      content ""
+      position relative
+      top -22px
+      left -2px
+      width 0
+      height 0
+      border-left 3px solid transparent
+      border-right 3px solid transparent
+      border-bottom 3px solid #dedede
+
+    &:before
+      content ""
+      position relative
+      top 44px
+      left 4px
+      width 0
+      height 0
+      border-left 3px solid transparent
+      border-right 3px solid transparent
+      border-top 3px solid #dedede
+
+
+
+#pad2
+  position absolute
+  width 50px
+  height 50px
+  top 145px
+  left 7px
+  border-radius 100%
+  &:before
+    content ""
+    position absolute
+    width 25px
+    height 50px
+    left 100px
+    border-radius 12px
+    background #DFDFDF
+    -webkit-transform rotate(45deg)
+  &:after
+    content ""
+    position absolute
+    height 20px
+    width 3px
+    top 80px
+    left 100px
+    border-radius 2px
+    background #DDD
+    -webkit-transform rotate(-45deg)
+    box-shadow 7px 0 #DDD, 14px 0 #DDD, 21px 0 #DDD, 28px 0 #DDD, 35px 0 #DDD
+
+
+#btnAB
+  content ""
+  position absolute
+  width 25px
+  height 50px
+  left 100px
+  top 144.5px
+  background #DFDFDF
+  border-radius 12px
+  -webkit-transform rotate(60deg)
+
+  &:before
+    content ""
+    position absolute
+    width 17px
+    height 17px
+    top 29px
+    right 4px
+    border-radius 100%
+    background #A93671
+    box-shadow 18px -18px #A93671
+    -webkit-transform rotate(-45deg)
+
+#btnStartSelect
+  position absolute
+  height 25px
+  width 6px
+  bottom 25px
+  left 55px
+  background #999
+  border-radius 3px
+  -webkit-transform rotate(60deg)
+  box-shadow 17px -17px #999
