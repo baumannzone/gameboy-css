@@ -20,7 +20,7 @@ input.btn-hide {
 .gameboy {
   position: relative;
   display: block;
-  margin: 20 auto;
+  margin: 20px auto;
   width: 422px;
   height: 697px;
   background: #eee;
