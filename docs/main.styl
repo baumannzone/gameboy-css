@@ -1,0 +1,360 @@
+// Nintendo-like font
+@font-face
+  font-family 'Pretendo';
+  src: url('font/Pretendo.ttf') format('truetype'),
+    url('font/Pretendo.woff') format('woff'),
+    url('font/Pretendo.woff2') format('woff2');
+  font-weight normal
+  font-style normal
+
+// Mixins
+// =============
+
+transition()
+  -webkit-transition arguments
+  -moz-transition arguments
+  -ms-transition arguments
+  -o-transition arguments
+  transition arguments
+
+rotation()
+  -webkit-transform: rotate(arguments)
+  -moz-transform: rotate(arguments)
+  -ms-transform: rotate(arguments)
+  -o-transform: rotate(arguments)
+  transform: rotate(arguments)
+
+// =============
+
+
+body
+  background #09cbe4
+
+
+input
+  &.btn-on,
+  &.btn-off
+    display block
+    margin 0 auto;
+    font-family: sans-serif;
+    text-align center
+
+  &.btn-hide
+    display none
+
+
+// Main Styles
+// =============
+.gameboy
+  position relative
+  display block
+  margin 20 auto
+  width 422px
+  height 697px
+  background #EEE
+  border-radius 10px 10px 60px 10px
+  box-shadow 5px 5px rgba(0, 0, 0, 0.1)
+
+  // Top Lines
+  &:before
+    content ""
+    position absolute
+    width 100%
+    height 31px
+    border-bottom 4px solid #E0E0E0
+
+  &:after
+    content ""
+    position absolute
+    top 0
+    width 334px
+    height 31px
+    border-left 4px solid #E0E0E0
+    border-right 4px solid #E0E0E0
+    margin-left 40px
+    margin-right 40px
+
+  // Screen container
+  .screen-cont
+    position relative
+    top 60px
+    left 40px
+    width 342
+    height 272
+    margin-bottom 58px
+    background-color #777
+    border-radius 13px 13px 50px 13px
+
+    // Screen
+    .screen
+      position relative
+      top 30px
+      margin-left auto
+      margin-right auto
+      background #bdae58
+      width 225px
+      height 205px
+      box-shadow inset 3px 3px rgba(0, 0, 0, 0.15)
+
+      // Text and lines
+      .header
+        position relative
+        top -30px
+        width 100%
+        height 30px
+        padding-top 10px
+        box-sizing border-box
+        text-align right
+        font-size 10px
+        font-family sans-serif
+        color #b3b3b3
+
+        // Lines
+        &:before
+          content ""
+          position absolute
+          left -43px
+          top 12px
+          width 90px
+          height 3px
+          background-color #8b1d90
+          box-shadow 0 6px 0 #283593
+
+        &:after
+          content ""
+          position absolute
+          right -46px
+          top 12px
+          width 38px
+          height 3px
+          background-color #8b1d90
+          box-shadow 0 6px 0 #283593
+
+      // Text (hidden by default)
+      .animated-text
+        opacity 0
+        display inline
+        position relative
+        top -26px
+        left 30%
+        color #8a891f
+        font-size 17px
+        font-family "Pretendo"
+        z-index 10
+
+        // Animation effect
+        &.end
+          opacity 1
+          top 50px
+          transition top 3s linear
+
+        // ©
+        .copy
+          position relative
+          display inline
+          top -2px
+          margin-left 2px
+          font-size 15px
+          font-family monospace
+
+    // Led
+    .power
+      content ""
+      position absolute
+      width 10px
+      height 10px
+      top 100px
+      left 20px
+      border-radius 100%
+      background-color #b98181
+      transition background-color 300ms linear
+
+      // Batteru Text
+      &:before
+        content "BATTERY"
+        position relative
+        top 18px
+        left -10px
+        font-size 8px
+        font-family sans-serif
+        color #b3b3b3
+
+      // Led Effect
+      &.power-on
+        background-color red
+        box-shadow: 0 0 3px 1px #EF5350;
+
+  // Buttons container
+  .controls-cont
+    display block
+    position relative
+    margin-top 90px
+
+    // Pad
+    .btn-direction
+      position relative
+      margin-left 40px
+      top 60px
+
+      &:before
+        content ""
+        position absolute
+        z-index 1
+        top 30px
+        left 30px
+        width 30px
+        height 30px
+        background-color #353535
+        border-radius 100%
+
+      .vertical,
+      .horizontal
+        position absolute
+        left 30px
+        width 30px
+        height 90px
+        background #444
+        border-radius 5px
+
+        &:before
+          content ""
+          position relative
+          top 99px
+          left 8px
+          width 0
+          height 0
+          border-left 7px solid transparent
+          border-right 7px solid transparent
+          border-top 7px solid #dedede
+
+        &:after
+          content ""
+          position relative
+          top -27px
+          left -5.6px
+          width 0
+          height 0
+          border-left 7px solid transparent
+          border-right 7px solid transparent
+          border-bottom 7px solid #dedede
+
+      // Rotate 90º
+      .horizontal
+        rotation 90deg
+
+    // Background
+    .btn-AB
+      position absolute
+      top 72px
+      left 252px
+      width 130px
+      height 60px
+      background #DFDFDF
+      border-radius 30px
+      -webkit-transform rotate(-25deg)
+
+      // A/B Buttons
+      &:after
+        content ""
+        position absolute
+        top 8px
+        right 9px
+        width 44px
+        height 44px
+        background #A93671
+        box-shadow 68px 0 #A93671
+        border-radius 100%
+        -webkit-transform rotate(180deg)
+
+    // Start Select buttons
+    .btn-start-select
+      position absolute
+      top 205px
+      left 140px
+      height 12px
+      width 60px
+      background #999
+      border-radius 10px
+      -webkit-transform rotate(-25deg)
+      box-shadow 57px 27px #999, 0 0 0 5px #dfdfdf, 57px 27px 0 5px #dfdfdf
+
+  // Speakers
+  .speakers
+    content ""
+    position relative
+    height 70px
+    width 8px
+    top 260px
+    left 300px
+    background #DDD
+    border-radius 4px
+    -webkit-transform rotate(-25deg)
+    box-shadow 20px 0 #ddd, 40px 0 #ddd, 60px 0 #ddd, 80px 0 #ddd, 100px 0 #ddd
+
+// Phones Indicator
+.phones
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  padding 3px 5px
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color #e8e8e8
+  font-size: 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+
+  &:before
+    content ""
+    position absolute
+    width 15px
+    height 5px
+    bottom -4px
+    background-color: #e8e8e8
+    left 9px
+
+  &:after
+    content ""
+    position absolute
+    width 3px
+    height 5px
+    bottom -4px
+    left 12px
+    background-color: #ddd
+    box-shadow 5px 0 #ddd
+    border-radius 4px 4px 0 0
+
+// On/Off indicator
+.on-off
+  position: absolute;
+  top: 2px;
+  left: 20%;
+  padding 3px 5px
+  transform: translateX(-50%);
+  color: #dadada;
+  background-color #e8e8e8
+  font-size: 8px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+
+  &:before
+    content ""
+    position absolute
+    width 15px
+    height 5px
+    top -2px
+    background-color: #e8e8e8
+    left 6px
+
+  &:after
+    content ""
+    position absolute
+    width 3px
+    height 5px
+    top -2px
+    left 9px
+    background-color: #ddd
+    box-shadow 5px 0 #ddd
+    border-radius 0 0 3px 3px
