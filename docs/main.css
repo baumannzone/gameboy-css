@@ -325,3 +325,9 @@ input.btn-hide {
   box-shadow: 5px 0 #ddd;
   border-radius: 0 0 3px 3px;
 }
+.gh-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}

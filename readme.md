@@ -11,7 +11,7 @@ An awesome GameBoy illustration created with CSS and some HTML (during a long tr
 The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus](http://stylus-lang.com/).
 
 **Video**: https://www.youtube.com/watch?v=9G_4hoLzoVc  
-**Medium post** (Spanish): [Post](https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff)
+**Medium post**: [Link](https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff) 
 
 ### Usage 
 You can simply run the `index.html` file in your favorite browser and make sure you have the volume enabled for a 
