@@ -1,3 +1,5 @@
+[![Hacktoberfest][hacktoberfest-badge]][hacktoberfest]
+
 # Original GameBoy 
 The classic GameBoy made with CSS and HTML. Also some `js` to make the GameBoy great again.
 Pump up the volume :speaker: and _turn on_ the GameBoy.  
@@ -19,3 +21,7 @@ nostalgic experience :space_invader:
 
 ### License
 [MIT](./license)
+
+
+[hacktoberfest-badge]: https://img.shields.io/badge/hacktoberfest-%F0%9F%8E%83-fe962f.svg
+[hacktoberfest]: https://hacktoberfest.digitalocean.com
