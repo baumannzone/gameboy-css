@@ -22,6 +22,5 @@ nostalgic experience :space_invader::space_invader::space_invader::space_invader
 ### License
 [MIT](./license)
 
-
 [hacktoberfest-badge]: https://img.shields.io/badge/hacktoberfest-%F0%9F%8E%83-fe962f.svg
 [hacktoberfest]: https://hacktoberfest.digitalocean.com
