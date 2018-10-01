@@ -15,7 +15,7 @@ The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus]
 
 ### Usage 
 You can simply run the `index.html` file in your favorite browser and make sure you have the volume enabled for a 
-nostalgic experience :space_invader::space_invader::space_invader:v:space_invader:
+nostalgic experience :space_invader::space_invader::space_invader::space_invader:
 
 ### License
 [MIT](./license)
