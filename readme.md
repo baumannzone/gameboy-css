@@ -1,4 +1,3 @@
-[![Hacktoberfest][hacktoberfest-badge]][hacktoberfest]
 
 # Original GameBoy 
 The classic GameBoy made with CSS and HTML. Also some `js` to make the GameBoy great again.
