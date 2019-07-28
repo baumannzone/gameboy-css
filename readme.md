@@ -1,9 +1,9 @@
 
-# Original GameBoy 
+# Pure CSS GameBoy 
 The classic GameBoy made with CSS and HTML. Also some `js` to make the GameBoy great again.
 Pump up the volume :speaker: and _turn on_ the GameBoy.  
 
-**Demo**: https://baumannzone.github.io/gameboy-css/  
+**DEMO**: https://baumannzone.github.io/gameboy-css/  
 
 ![gameboy](./docs/img.png)
 
