@@ -11,8 +11,8 @@ Pump up the volume :speaker: and _turn on_ the GameBoy.
 An awesome GameBoy illustration created with CSS and some HTML (during a long trip by car). Effects made with plain Javascript.
 The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus](http://stylus-lang.com/).
 
-**Youtube video**: https://youtu.be/Drj78FhXz5U
-**Medium post**: [Link](https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff) 
+**Youtube video**: https://youtu.be/Drj78FhXz5U  
+**Medium post**: https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff
 
 ### Usage 
 You can simply run the `index.html` file in your favorite browser and make sure you have the volume enabled for a 
