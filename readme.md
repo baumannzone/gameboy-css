@@ -11,11 +11,12 @@ Pump up the volume :speaker: and _turn on_ the GameBoy.
 An awesome GameBoy illustration created with CSS and some HTML (during a long trip by car). Effects made with plain Javascript.
 The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus](http://stylus-lang.com/).
 
-**Youtube video**: https://youtu.be/Drj78FhXz5U  
-**Medium post**: https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff (🇪🇸) . 
-**Dev post** <a href="https://dev.to/baumannzone">
-  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Jorge Baumann's DEV Profile" height="30" width="30">
-</a>: https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff (English)
+- **Youtube video** <img src="https://www.youtube.com/about/static/svgs/icons/brand-resources/YouTube_icon_full-color.svg?cache=f2ec7a5" alt="RambitoJS Channel" height="20" width="20"> : https://youtu.be/Drj78FhXz5U  
+
+- **Medium post** <img src="https://miro.medium.com/fit/c/160/160/1*6_fgYnisCa9V21mymySIvA.png" alt="Jorge Baumann Medium's profile" height="20" width="20">: https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff (Spanish).  
+- **Dev post** <a href="https://dev.to/baumannzone/pure-css-gameboy-14n3">
+  <img src="https://d2fltix0v2e0sb.cloudfront.net/dev-badge.svg" alt="Jorge Baumann's DEV Profile" height="20" width="20">
+</a>: https://dev.to/baumannzone/pure-css-gameboy-14n3 (English)
 
 ### Usage 
 You can simply run the `index.html` file in your favorite browser and make sure you have the volume enabled for a 
