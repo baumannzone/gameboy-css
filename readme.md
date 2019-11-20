@@ -7,6 +7,10 @@ Pump up the volume :speaker: and _turn on_ the GameBoy.
 
 ![gameboy](./docs/img.png)
 
+---
+
+> If you liked it, click the ⭐️ button and spread the word 🦄
+
 ### Overview
 An awesome GameBoy illustration created with CSS and some HTML (during a long trip by car). Effects made with plain Javascript.
 The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus](http://stylus-lang.com/).
