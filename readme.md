@@ -1,7 +1,7 @@
 
 # Pure CSS GameBoy 
-The classic GameBoy made with CSS and HTML. It uses some Javascript to make the GameBoy great again.  
-Pump up the volume :speaker: and _turn on_ the GameBoy.  
+The classic Game Boy made with CSS and HTML. It uses some Javascript to make the Game Boy great again.  
+Pump up the volume :speaker: and _turn on_ the Game Boy.  
 
 **DEMO**: https://baumannzone.github.io/gameboy-css/  
 
