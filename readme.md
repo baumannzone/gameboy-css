@@ -1,7 +1,7 @@
 
 # Pure CSS GameBoy 
-The classic Game Boy made with CSS and HTML. It uses some Javascript to make the Game Boy great again.  
-Pump up the volume :speaker: and _turn on_ the Game Boy.  
+The classic Game Boy made with CSS and HTML. It uses some JavaScript to make the Game Boy great again.  
+Pump up the volume :speaker: and turn on the Game Boy.  
 
 **DEMO**: https://baumannzone.github.io/gameboy-css/  
 
@@ -17,8 +17,6 @@ The source files are written in [Pug](https://github.com/pugjs/pug) and [Stylus]
 
 ### Links
 - **Youtube video**: https://youtu.be/Drj78FhXz5U  
-- **Medium post**: https://medium.com/@baumannsito/dibujando-una-gameboy-con-css-b78e5f148eff (Spanish).  
-- **Dev post**: https://dev.to/baumannzone/pure-css-gameboy-14n3 (English)
 
 ### Usage 
 You can simply run the `index.html` file in your favorite browser and make sure you have the volume enabled for a 
